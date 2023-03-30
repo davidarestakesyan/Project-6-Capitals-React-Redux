@@ -1,0 +1,34 @@
+.main {
+  width: 90%;
+  margin: 20px auto;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.accordion-item {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-content {
+  display: none;
+}
+
+.active {
+  display: block;
+}
